@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="assets/scripts/main.js" type="module" defer></script>
+  <title>MP2</title>
+</head>
+<body>
+  <!-- navigation section -->
+  <nav class="navigation-section flex-r fixed">
+    <span class="material-symbols-outlined" id="menuBtn">menu</span>
+    <span class="nav-logo">JOBHUB</span>
+    <ul class="nav-list flex-r">
+      <li class="menu-item-list"><a href="index.html">Find Work</a></li>
+      <li class="menu-item-list"><a href="#0">Company Profiles</a></li>
+      <li class="menu-item-list"><a href="#0">Career Advice</a></li>
+    </ul>
+    <div class="account-btns-container flex-r">
+      <span class="login-btn"><a href="login.html">Sign in</a></span>
+      <button class="create-btn"><a href="signup.html">Create Account</a></button>
+    </div>
+  </nav>
+  <div class="menu-container flex-c fixed">
+    <ul class="menu-list flex-c">
+      <li class="menu-item-list">
+        <a href="index.html">Find Work</a>
+      </li>
+      <li class="menu-item-list">
+        <a href="#0">Company Profiles</a>
+      </li>
+      <li class="menu-item-list">
+        <a href="#0">Career Advice</a>
+      </li>
+      <li class="menu-item-list">
+        <div class="account-btns-container flex-c">
+          <span class="login-btn" href="signup.html"><a href="login.html">Sign in</a></span>
+          <button class="create-btn"><a href="signup.html">Create Account</a></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- filter section -->
+  <section class="filter-section flex-r flex-wrap sticky">
+    <!-- search input -->
+    <div class="filter-input-container flex-r">
+      <label for="searchInput">Search</label>
+      <input type="text" id="searchInput" name="search" placeholder="Company, job title, or keywords">
+    </div>
+
+    <!-- location input -->
+    <div class="filter-input-container flex-r">
+      <label for="locInput">Location</label>
+      <input type="text" id="locInput" name="location" placeholder="City, province, or zip">
+    </div>
+
+    <!-- job specifications dropdown -->
+    <div class="relative dropdown">
+      <button class="filter-input-container flex-r job-dropdown relative" id="dropdownBtn">
+        <span id="jobFilterText">Categories</span>
+        <span class="material-symbols-outlined arrow">arrow_drop_down</span>
+      </button>
+      <div class="job-filter-container absolute">
+        <ul class="job-filter-list">
+          <li class="item flex-r">
+            <div class="check-box-outline flex-c">
+              <span class="material-symbols-outlined checkmark">
+                check
+              </span>
+            </div>
+            <span>All Job Fields</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <main class="main-body flex-r relative">
+    <ul class="job-cards-container flex-c">
+    </ul>
+    <section class="job-fulldes-container flex-c sticky">
+    </section>
+  </main>
+  <div id="fullDesModal" class="flex-c fixed hide">
+    <div class="fulldes-body relative">
+    </div>
+  </div>
+</body>
+</html>

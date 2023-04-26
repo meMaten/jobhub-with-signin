@@ -1,0 +1,130 @@
+{
+  "jobListings" : [
+    {
+      "jobTitle": "Software Developer",
+      "company": "ABC Softwares",
+      "location": "Quezon city, PH 1119",
+      "category": "Computer/Information Technology",
+      "salary": "PHP 35,000 - PHP 50,000 per month",
+      "workType": [ "Full-time", "Remote" ],
+      "date": "2023-04-25T09:30:00",
+      "requiredExperience": "2+ years of software engineering experience",
+      "skillsRequired": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "description": "We are looking for an experienced software engineer to join our team and help us develop cutting-edge software solutions. The ideal candidate should have a strong background in software development, be familiar with Agile methodologies, and be comfortable working in a collaborative team environment."
+    },
+    {
+      "jobTitle": "Marketing Manager",
+      "company": "XYZ Marketing Solutions",
+      "location": "Cebu city, PH 6000",
+      "category": "Sales/Marketing",
+      "salary": "PHP 25,000 - PHP 40,000 per month",
+      "workType": [ "Full-time", "Hybrid" ],
+      "date": "2023-04-24T16:00:00",
+      "requiredExperience": "5+ years of marketing experience",
+      "skillsRequired": [
+        "Digital marketing",
+        "SEO",
+        "Social media management",
+        "Content creation",
+        "Email marketing"
+      ],
+      "description": "We are seeking a dynamic and experienced Marketing Manager to lead our marketing team. The ideal candidate should have a strong background in digital marketing, be able to develop and implement marketing strategies, and have excellent communication skills."
+    },
+    {
+      "jobTitle": "Data Analyst",
+      "company": "UNI Outsourcing",
+      "location": "Bislig city, PH 8311",
+      "category": "Computer/Information Technology",
+      "salary": "PHP 22,000 -  PHP 35,000 per month",
+      "workType": [ "Part-time", "Onsite" ],
+      "date": "2023-04-23T21:50:00",
+      "requiredExperience": "3+ years of data analysis experience",
+      "skillsRequired": [
+        "SQL",
+        "Excel",
+        "Data visualization",
+        "Statistics",
+        "Data modeling"
+      ],
+      "description": "We are looking for a data analyst to join our team and help us make data-driven decisions. The ideal candidate should have a strong background in data analysis, be proficient in SQL and Excel, and be comfortable working with large datasets."
+    },
+    {
+      "jobTitle": "UX Designer",
+      "company": "IT Junkie",
+      "location": "Davao city, PH 8000",
+      "category": "Arts/Media/Communications",
+      "salary": "PHP 30,000 - PHP 40,000 per month",
+      "workType": [ "Contract", "Remote" ],
+      "date": "2023-04-22T08:25:00",
+      "requiredExperience": "5+ years of UX design experience",
+      "skillsRequired": [
+        "User research",
+        "Wireframing",
+        "Prototyping",
+        "Visual design",
+        "Collaboration"
+      ],
+      "description": "We are seeking a talented and passionate UX designer to help us create amazing user experiences. The ideal candidate should have a strong background in user research, wireframing, prototyping, and visual design, and be able to work collaboratively with product managers, developers, and other stakeholders."
+    },
+    {
+      "jobTitle": "Front-end Developer",
+      "company": "IT Junkie",
+      "location": "Pasay city, PH 1709",
+      "category": "Computer/Information Technology",
+      "salary": "PHP 35,000 - PHP 65,000 per month",
+      "workType": [ "Full-time", "Remote" ],
+      "date": "2023-04-20T05:00:00",
+      "requiredExperience": "3+ years of front-end development experience",
+      "skillsRequired": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Vue"
+      ],
+      "description": "We are looking for a front-end developer to join our team and help us build beautiful and responsive web applications. The ideal candidate should have a strong background in HTML, CSS, and JavaScript, and be familiar with modern front-end frameworks like React or Vue."
+    },
+    {
+      "jobTitle": "Sales Manager",
+      "company": "Market123.net",
+      "location": "Surigao city, PH 8400",
+      "category": "Sales/Marketing",
+      "salary": "PHP 35,000 - PHP 65,000 per month",
+      "workType": [ "Part-time", "Onsite" ],
+      "date": "2023-04-19T05:00:00",
+      "requiredExperience": "3+ years of sales experience",
+      "skillsRequired": [
+        "Digital marketing",
+        "SEO",
+        "Social media management",
+        "Content creation",
+        "Email marketing"
+      ],
+      "description": "We are looking for a results-driven and experienced sales manager to lead our sales team and help us grow our business. The ideal candidate should have a strong background in B2B sales, be able to build and maintain relationships with key clients, and be comfortable managing a team of sales representatives."
+    },
+    {
+      "jobTitle": "Customer Support Specialist",
+      "company": "MyBPO",
+      "location": "Pasig city, PH 1600",
+      "category": "Services",
+      "salary": "PHP 20,000 - PHP 28,000 per month",
+      "workType": [ "Full-time", "Onsite" ],
+      "date": "2023-04-18T15:00:50",
+      "requiredExperience": "2+ years of customer support experience",
+      "skillsRequired": [
+        "Customer support",
+        "Communication",
+        "Problem-solving",
+        "Fast-paced environment",
+        "Teamwork"
+      ],
+      "description": "We are seeking a customer support specialist to provide top-notch support to our clients and ensure their satisfaction with our services. The ideal candidate should have excellent communication skills, be able to troubleshoot and resolve issues, and be comfortable working in a fast-paced environment."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/b3716b6b80.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script defer src="signup.js"></script>
+    <div class="container">
+        <form id="options">
+            <h1>JOBHUB</h1>
+            <h2>Join us today</h2>
+            <button>
+                <img src="assets/images/google.png" style="width: 20px;">
+                <span>Sign up with Google</span>
+            </button>
+            <button style="background: #0072b1;">
+                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                <span style="color: white;">Sign up with LinkedIn</span>
+            </button>
+            <button id="create" type='button'>
+                <span>Create an account</span>
+            </button>
+            <div>
+                <span>Have an account already?</span>
+                <span><a href="login.html" style="text-decoration: none;">Log in</a></span>
+            </div>
+        </form>
+        <form id="nameEntry">
+            <h1>Create your account</h1>
+            <h3>Enter your name</h3>
+            <input id="firstnameInput"type="text" required>
+            <label id="firstnameInputLabel"></label>
+            <input id="lastnameInput" type="text" required>
+            <label id="lastnameInputLabel"></label>
+            <div class="btn-box">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+        <form id="infoEntry">
+            <h3>Contact</h3>
+            <input id="contactInput" type="tel">
+            <h3>Birthdate</h3>
+            <input id="birthdateInput" type="date">
+
+            <div class="btn-box">
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+        <form id="infoEntry">
+            <h3>Contact</h3>
+            <input type="tel">
+            <h3>Birthdate</h3>
+            <input type="date">
+
+            <div class="btn-box">
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+        <form id="otpForm">
+            <i class="fa-sharp fa-solid fa-shield-check" style="color: #1d0033;"></i>
+            <h1>Enter OTP</h1>
+            <div class="otp-box">
+                <input type="number">
+                <input type="number">
+                <input type="number">
+                <input type="number">
+            </div>
+            <div class="btn-box">
+                
+                <button type="button" id="next1">Verify</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
